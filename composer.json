@@ -1,0 +1,36 @@
+{
+    "name": "cvega/mainmenu",
+    "description": "A simple and easy main menu for Laravel using Bootstrap5",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Cvega\\Mainmenu\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cvega\\Mainmenu\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cvega\\Mainmenu\\MainmenuServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos",
+            "email": "carlos@mediadvanced.es"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}
