@@ -62,7 +62,7 @@ This way you will have a $menu variable in your template and you will be able to
 <x-mainmenu :menu=$menu />
 ```
 
-Make sure you have using Bootstrap 5.
+Make sure you are using Bootstrap 5.
 
 
 
