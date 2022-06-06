@@ -54,13 +54,13 @@ public function some_method_in_your_controller()
         'menu' => $mainmenu->main_menu,
     ]);
 }
-
-(...)
 ```
 
 This way you will have a $menu variable in your template and you will be able to invoke the component:
 
+```bash
 <x-mainmenu :menu=$menu />
+```
 
 Make sure you have using Bootstrap 5.
 
